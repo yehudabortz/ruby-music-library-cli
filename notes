@@ -1,0 +1,17 @@
+## This lab has 3 main classes 
+
+- Artist
+- Genre
+- Song
+
+# They each share many of the same functionality which should be seperated into Modules
+Concerns::Findable
+
+## MusicImporter  
+
+- extracts the filenames from mp3 
+- creates instances of the 3 classes from the mp3
+
+
+
+
