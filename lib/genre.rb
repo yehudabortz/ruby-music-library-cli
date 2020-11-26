@@ -2,7 +2,6 @@ require 'pry'
 class Genre
     extend Concerns::Findable
 
-
     attr_accessor :name
     attr_reader :songs
 
@@ -25,7 +24,6 @@ class Genre
         @@all << self
     end
     
-
     def self.create(name)
         song = new(name)
         song.save
